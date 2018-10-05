@@ -1,0 +1,13 @@
+.btn_signup{border:none;}
+.login-box-min-height{min-height:auto !important;}
+.disable-action {color: gray;pointer-events: none;opacity: 0.2;}
+.input_login select {
+    border: none;
+    border-bottom: solid 1px #e7e7e7;
+    color: #bababa;
+    font-family: lato;
+    font-style: italic;
+    font-size: 14px;
+    width: 100%;
+    padding-right: 40px;
+}

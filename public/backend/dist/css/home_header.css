@@ -1,0 +1,1082 @@
+#myModall3 .dropdown-menu {
+     left: 65px;
+}
+ #demo3 a {
+     display: block;
+     height: 38px;
+     padding: 8px 10px;
+}
+ #demo3 a:hover, #demo3 a:active, #demo3 a:focus {
+     outline: none;
+     text-decoration: none;
+     background: #42C500;
+     color: #fff;
+}
+ .btn_width {
+     width: 179px;
+}
+ #demo3 table td {
+     padding: 0px !important;
+     height: 38px;
+     vertical-align: middle !important;
+}
+ .table_intro tbody tr td {
+     border: 1px solid #dcdcdc !important;
+     padding: 0px;
+     white-space: nowrap;
+     font-size: 12px;
+     font-weight: 500;
+}
+ .table_intro thead tr td {
+     border: 1px solid #dcdcdc !important;
+     padding: 0px;
+}
+ #table_job_intro thead tr td {
+     border: none;
+}
+ #table_job_intro tbody tr td {
+     border: none;
+}
+ .code {
+     background: #d9d9d9;
+     color: #777;
+     border-radius: 5px;
+     padding: 5px;
+}
+ #button_checked label {
+     transition: 0.25s ease;
+     padding: 9px 10px;
+     height: 40px;
+     width: 100%;
+     font-size: 14px;
+     margin-bottom: 0px;
+}
+ #button_checked input {
+     display: none;
+}
+ #button_checked input:checked + label {
+     color: #fff;
+     background: #42C500;
+}
+ .dropdown dd, .dropdown dt {
+     margin: 0px;
+     padding: 0px;
+}
+ #dropdown_multi{
+     margin-bottom: 0px;
+}
+ #dropdown_multi a{
+     height: 38px !important;
+     padding: 7px 10px !important;
+     border: none;
+     color: #000 ;
+     font-size: 14px;
+}
+ #dropdown_multi ul{
+     padding-left: 0px !important;
+     padding-right: 0px !important;
+}
+ .td_1_green_label label{
+     padding-left: 5px !important;
+}
+ .dropdown dd {
+     position: relative;
+}
+ .dropdown a, .dropdown a:visited {
+     color: #000;
+     text-decoration: none;
+     outline: none;
+     font-size: 12px;
+}
+ .dropdown dt a {
+     background-color: #fff;
+     display: block;
+     padding: 8px 20px 5px 10px;
+     line-height: 24px;
+     overflow: hidden;
+     border: 1px solid #D2D6DE;
+     width: 100%;
+     min-height: 34px;
+}
+ .dropdown dt a spa {
+     cursor: pointer;
+     display: inline-block;
+     padding: 0 3px 2px 0;
+}
+ .multiSel {
+     padding: 0;
+     margin: 0;
+     width: 95%;
+     white-space: nowrap;
+     overflow: hidden;
+     text-overflow: ellipsis;
+     padding-right: 5%;
+}
+ .multiSel span {
+     cursor: pointer;
+     display: inline;
+     padding: 0 3px 2px 0;
+}
+ .dropdown dd ul {
+     background-color: #4F6877;
+     border: 0;
+     color: #fff;
+     display: none;
+     left: 0px;
+     padding: 2px 15px 2px 5px;
+     position: absolute;
+     top: 2px;
+     width: 100%;
+     list-style: none;
+     height: 100px;
+     overflow: auto;
+}
+ .dropdown span.value {
+     display: none;
+}
+ .dropdown dd ul li a {
+     padding: 5px;
+     display: block;
+}
+ .dropdown dd ul li a:hover {
+     background-color: #fff;
+}
+ .td_1_green_label {
+     background: #3F4A59;
+     color: #fff !important;
+     border-bottom: solid 1px #fff !important;
+     margin-bottom: 1px;
+}
+ .td_1_green_label:hover {
+     color: #fff;
+     background: #647182;
+     cursor: pointer;
+}
+ .td_1_green_label label {
+     color: #fff !important;
+}
+ #button_checked input{
+     height: 38px;
+     border: none;
+}
+ #button_checked select{
+     height: 38px;
+     border: none;
+     font-size: 12px;
+     padding-left: 5px;
+}
+ @media only screen and (min-width: 1025px) and (max-width: 1920px){
+     #demo3 .table-responsive{
+         overflow-x: inherit;
+    }
+     #clone_table_main .table-responsive{
+         overflow-x: inherit;
+    }
+     #myModal5 .modal-dialog {
+         width: 79% !important;
+    }
+     #myModal .modal-dialog {
+         width: 70% !important;
+    }
+     #myModall3 .modal_wdith_intro {
+         width: 72% !important;
+    }
+}
+ #clone_table td{
+     height: 38px;
+     padding-top: 11px;
+}
+ #date_tabs .panel-heading a {
+     color: #333;
+     padding: 3px;
+     font-size: 18px;
+     width: 95px;
+     text-align: center;
+}
+ #date_tabs .panel-heading {
+     background-color: white;
+     border-color: #ddd;
+     padding: 0px;
+}
+ #date_tabs {
+     border-color: transparent;
+}
+ .date_events ul{
+     padding: 0px;
+     list-style-type: none;
+}
+ .date_events ul li{
+     float: left;
+}
+ #date_tabs .panel-body{
+     padding: 0px 0px 5px;
+}
+ .date_events li a .label{
+     padding: .2em 0.3em .2em !important;
+     font-size: 80% !important;
+}
+ #calendar_dropdown .slimScrollDiv{
+     height: 79px !important;
+}
+ .input-group .input-group-addon {
+     border-color: white;
+}
+ @media only screen and (min-width: 768px) and (max-width: 1920px){
+     #myModal_decline .modal-dialog{
+         width: 60% !important;
+    }
+}
+ @media only screen and (min-width: 992px) and (max-width: 1920px){
+     .mobile_clear{
+         display: none;
+    }
+}
+ @media only screen and (min-width: 768px) and (max-width: 1024px){
+     .modal_mobile_img{
+         width: 15%;
+         float: left;
+    }
+     .modal_mobile_content{
+         width: 35%;
+         float: left;
+    }
+     .modal_mobile_dropdown{
+         width: 45%;
+         float: left;
+         text-align: right;
+    }
+}
+ @media only screen and (min-width: 768px) and (max-width: 991px){
+     .update_ipad{
+         width: 100%;
+    }
+}
+ @media only screen and (min-width: 320px) and (max-width: 991px){
+     .po_right {
+         padding-right: 15px !important;
+    }
+     .carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
+         margin: 0 auto;
+    }
+     .box-body {
+         padding-bottom: 30px;
+    }
+}
+ @media only screen and (min-width: 320px) and (max-width: 767px){
+     #myModal .modal-dialog {
+         margin: 0px;
+         margin-left: 3px;
+    }
+     #myModal .modal-content {
+         padding-top: 5px;
+    }
+     .navbar-custom-menu>.navbar-nav>li>.dropdown-menu {
+         right: 0% !important;
+         width: 100% !important;
+    }
+     .link_top_maind a {
+         margin-right: 15px;
+    }
+     #myModall3 .modal_wdith_intro {
+         width: 100% !important;
+         margin-left: 0px;
+    }
+     .modal_mobile_img{
+         width: 20%;
+         float: left;
+    }
+     .modal_mobile_content{
+         width: 50%;
+         float: left;
+    }
+     .modal_mobile_dropdown{
+         width: 10%;
+         float: left;
+    }
+     .today_time li {
+         width: 45px !important;
+         height: 30px !important;
+         line-height: 27px !important;
+    }
+     .search_box_tool{
+         right: 55px !important;
+         top: 8px !important;
+    }
+
+
+	#quick_job li a{
+		font-size: 15px !important;
+	}
+}
+ #myModall3 input::-webkit-input-placeholder {
+     color: #000 !important;
+     font-size: 14px;
+     font-weight:bold;
+}
+ #myModall3 input:-moz-placeholder {
+    /* Firefox 18- */
+     color: #000 !important;
+     font-size: 14px;
+     font-weight:bold;
+}
+ #myModall3 input::-moz-placeholder {
+    /* Firefox 19+ */
+     color: #000 !important;
+     font-size: 14px;
+     font-weight:bold;
+}
+ #myModall3 input:-ms-input-placeholder {
+     color: #000 !important;
+     font-size: 14px;
+     font-weight:bold;
+}
+ #myModall3 select{
+     font-size: 14px;
+     font-weight:bold;
+}
+ .bg_selected{
+     background: #42C500;
+}
+ .bg_selected label{
+     color: #fff;
+}
+ .active_select:visited, .active_select:active, .active_select:focus{
+     background: #42C500;
+     color: #fff;
+}
+ option{
+     background: #fff;
+     color: #000;
+}
+ .today_time{
+     list-style-type: none;
+     padding: 0px;
+}
+ .today_time li{
+     border: 1px solid #3F4A59;
+     margin: 6px 4px;
+     float: left;
+     margin-bottom: 4px;
+     width: 33px;
+     text-align: center;
+     height: 33px;
+     line-height: 30px;
+}
+ .today_time label{
+     padding: 0px !important;
+}
+ #clone_table td label{
+     font-size: 14px;
+}
+ 
+ .multiselect-container {
+     box-shadow: 0 3px 12px rgba(0,0,0,.175);
+     margin: 0;
+}
+ .multiselect-container .checkbox {
+     margin: 0;
+}
+ .multiselect-container li {
+     margin: 0;
+     padding: 0;
+     line-height: 0;
+}
+ .multiselect-container li a {
+     line-height: 5px;
+     margin: 0;
+     padding: 0 35px;
+}
+ .caret{
+     float: right;
+     position: relative;
+     top: 8px;
+}
+ .custom-btn {
+     width: 194px !important;
+     box-shadow: none !important;
+     border: none !important;
+}
+ .custom-btn .form-control{
+     border-color: transparent;
+}
+ .custom-btn .form-control:focus {
+     border-color: transparent;
+     outline: 0;
+     -webkit-box-shadow: none !important;
+     box-shadow: none !important;
+}
+ .btn-group.open .dropdown-toggle {
+     -webkit-box-shadow: none !important;
+     box-shadow: none !important;
+     outline: none !important;
+}
+ .custom-btn .btn, .custom-multi {
+     text-align: left;
+     width: 100% !important;
+}
+ .dropdown-menu > .active > a:hover {
+     color:inherit;
+}
+ .multiselect-container{
+     left: 0px !important;
+}
+ .dropdown-background{
+     color: #fff !important;
+     background: #42C500 !important;
+}
+ #myModall3 p{
+     font-size: 16px;
+}
+ #myModall3 strong{
+     font-size: 18px;
+}
+ #myModall3{
+     font-size: 16px;
+}
+ #myModal strong{
+     font-size: 18px;
+}
+ #myModal{
+     font-size: 16px;
+}
+ #myModal p{
+     font-size: 16px;
+}
+ #myModal li{
+     font-size: 16px;
+}
+ #myModal_decline{
+     font-size: 16px;
+}
+ #myModal_decline p{
+     font-size: 16px;
+}
+ #myModal_decline li{
+     font-size: 16px;
+}
+ 
+ .today_time{
+     list-style-type: none;
+     padding: 0px;
+     margin: 0px;
+}
+ .today_time li{
+     border: 1px solid #3F4A59;
+    margin: 6px 36px;
+    float: left;
+    margin-bottom: 4px;
+    width: 46px;
+    text-align: center;
+    height: 35px;
+    line-height: 32px;
+	    background: #d5d5d5 !important;
+    color: #fff !important;
+}
+ .today_time label{
+     padding: 0px !important;
+}
+ .today_time label{
+     height: 33px !important;
+     font-size: 15px;
+}
+
+.click_display_time .today_time li {
+    background: #d5d5d5 ;
+    color: #fff;
+}
+
+ @media only screen and (min-width: 1200px) and (max-width: 1920px){
+     .today_time li {
+         margin: 6px 10px !important;
+    }
+}
+ @media only screen and (min-width: 1025px) and (max-width: 1199px){
+     .today_time li {
+         margin: 6px 15px !important;
+    }
+}
+@media only screen and (min-width: 320px) and (max-width: 767px){
+     .today_time li {
+         width: 65px !important;
+         height: 30px !important;
+         line-height: 27px !important;
+    }
+    
+     .today_time li {
+         margin: 6px 17px !important;
+    }
+	
+	.btn_egency{
+		margin-top: 10px;
+	}
+}
+
+#myModal5 .panel-default {
+    border-color: transparent;
+	margin: 0px;
+}
+
+#myModal5 .panel-default>.panel-heading {
+    background-color: transparent;
+    border-color: transparent;
+	padding: 5px 2px;
+}
+
+.green_bg{
+	background: #42C500 !important;
+}
+
+.custom_label{
+	color: #fff;
+    background-color: #3F4A59;
+    height: 37px;
+    margin: 0px;
+    width: 200px;
+    padding: 7px 10px;
+}
+
+#clone_tabs_li .nav-tabs>li{
+	width: 20%;
+	text-align: center;
+}
+
+.active_annual:visited, .active_annual:active, .active_annual:focus{
+     background: #42C500;
+     color: #fff;
+}
+
+ .multiselect-container {
+
+     box-shadow: 0 3px 12px rgba(0,0,0,.175);
+
+     margin: 0;
+
+}
+
+ .multiselect-container .checkbox {
+
+     margin: 0;
+
+}
+
+ .multiselect-container li {
+
+     margin: 0;
+
+     padding: 0;
+
+     line-height: 0;
+
+}
+
+ .multiselect-container li a {
+		padding-top: 6px;
+ }
+ 
+ .multiselect-container li a {
+
+     line-height: 25px;
+
+     margin: 0;
+
+     padding:0 5px !important;
+
+}
+
+.multiselect-container li.active>a, .multiselect-container li.active>a:focus, .multiselect-container li.active>a:hover {
+
+    color: #fff;
+
+    text-decoration: none;
+
+    background-color: #42C500 !important;
+
+    outline: 0;
+
+}
+
+.btn-group.open .dropdown-toggle {
+    box-shadow: none !important;
+}
+
+.btn-group.open .dropdown-toggle{
+	background: #42C500;
+	color: #fff;
+}
+
+.custom-btn button {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-weight: bold;
+    height: 39px;
+}
+
+.custom-btn {
+    width: 264px !important;
+    height: 40px;
+    outline: none !important;
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1920px){
+
+     .fa-info-circle{
+
+         /* position: absolute;
+
+         margin-left: 19%;
+
+         top: 6px;
+ */
+ 
+     /* position: relative;
+    left: 42%;
+    bottom: 8px; */
+         font-size: 13px;
+
+         color: #fff;
+
+    }
+	
+	#myModal_job_header .modal-dialog{
+		width: 80%;
+	}
+
+}
+
+#quick_job{
+	padding: 0px;
+	border-radius: 0px;
+}
+
+#quick_job li{
+	width: 50%;
+    text-align: center;
+}
+
+#quick_job li a{
+	background: #3F4A59;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+	border-radius: 0px;
+}
+
+#quick_job .nav-tabs>li.active>a, #quick_job .nav-tabs>li.active>a:focus, #quick_job .nav-tabs>li.active>a:hover {
+    color: #fff;
+    cursor: default;
+    background-color: #42C500;
+    border: 1px solid #42C500;
+    border-bottom-color: transparent;
+}
+ #date_time_tabs .panel-heading{
+
+     padding: 0px;
+
+}
+
+ #date_time_tabs .nav-tabs>li {
+
+     width: 20%;
+
+     text-align: center;
+
+}
+
+ #date_time_tabs .nav-tabs>li>a {
+
+     background: #3F4A59;
+
+     color: #fff;
+
+     border: none;
+
+     border-radius: 0px;
+
+}
+
+ #date_time_tabs .panel-default{
+
+     border-color: white;
+
+     box-shadow: none;
+
+     margin-bottom: 0px;
+
+}
+
+ #date_time_tabs .panel-body {
+
+     padding: 0px;
+
+}
+
+ #date_time_tabs .nav-tabs>li.active>a, #date_time_tabs .nav-tabs>li.active>a:focus, #date_time_tabs .nav-tabs>li.active>a:hover {
+
+     background: #42C500;
+
+     color: #fff;
+
+}
+
+#tab1default_job table tr td{
+	height: 40px;
+	padding:0px;
+}
+
+#tab2default_job table tr td{
+	height: 40px;
+	padding: 0px;
+}
+
+.popover-title {
+    color: #000;
+}
+
+.popover-content {
+    color: #000;
+}
+
+#tab1default_job input[type=text]{
+	display: block !important;
+}
+
+#tab1default_job input[type=file]{
+	display: block !important;
+}
+
+#tab2default_job input[type=text]{
+	display: block !important;
+}
+
+#tab2default_job input[type=file]{
+	display: block !important;
+}
+.table-hover>thead>tr:hover{
+	background: #f5f5f5 !important;
+	z-index: 999999;
+}
+
+.table-hover>thead>tr:hover .td_1_green_label{
+    background-color: transparent !important;
+}
+
+.table-hover>thead>tr:hover label{
+    color: #000 !important;
+}
+
+.table-hover>thead>tr:hover .fa-info-circle{
+    color: #000 !important;
+}
+
+
+
+.table-hover>thead>tr:hover select{
+    background-color: transparent !important;
+}
+
+.table-hover>thead>tr:hover input{
+    background-color: transparent !important;
+}
+
+.table-hover>tbody>tr:hover input{
+    background-color: transparent !important;
+}
+
+/* .custom-btn:hover {
+    background-color: transparent !important;
+    z-index: 999999;
+}
+
+.custom-btn .btn:hover {
+    background-color: transparent !important;
+    z-index: 999999;
+} */
+
+#date_tabs .panel-heading li {
+	width: 33.3%;
+	text-align: center;
+}
+
+#date_tabs .panel-heading li a{
+	background: #3F4A59;
+	color: #fff;
+	width: 100%;
+}
+
+#date_tabs .panel-heading li.active a{
+	background: #42C500;
+}
+
+.cal_drp_tab{
+	height: 78px !important;
+    border: 1px solid #3F4A59;
+    border-radius: 4px;
+}
+
+#date_tabs .panel-heading li {
+	width: 33.3%;
+	text-align: center;
+}
+
+#date_tabs .panel-heading li a{
+	background: #3F4A59;
+	color: #fff;
+	width: 100%;
+}
+
+#date_tabs .panel-heading li.active a{
+	background: #42C500;
+}
+
+.cal_drp_tab{
+	height: 78px !important;
+    border: 1px solid #3F4A59;
+    border-radius: 4px;
+}
+
+.btn_quick_popup{
+	border-radius: 30px;
+    width: 170px;
+    font-size: 16px;
+}
+
+#bs-collapse .panel-heading{
+	background: #42C500;
+	text-align: center;
+}
+
+#bs-collapse .panel-body {
+    padding: 5px;
+}
+
+#bs-collapse .panel-body input{
+    border: 1px solid #000;
+    box-shadow: none;
+    padding: 0px 5px;
+    height: 34px;
+    width: 100%;
+}
+
+#bs-collapse .panel-body select{
+    box-shadow: none;
+    height: 34px;
+    width: 100%;
+	border-radius: 0px !important;
+    border: 1px solid #000;
+}
+
+#bs-collapse .custom-btn {
+	width: 100% !important;
+}
+
+#bs-collapse .custom-btn .btn {
+    height: 34px !important;
+    width: 100% !important;
+    border-radius: 0px !important;
+    border: 1px solid #000;
+    box-shadow: none !important;
+}
+
+#bs-collapse .multiselect-container li input {
+    display: none !important;
+}
+
+#bs-collapse .panel-heading a{
+	color: #fff;
+}
+
+#bs-collapse input:checked + label {
+    color: #fff;
+    background: #42C500;
+}
+
+.mobile_input input{
+	display: none !important;
+}
+
+.mobile_input label{
+	height: 34px;
+    width: 100%;
+    text-align: center;
+    padding-top: 6px;
+	border: 1px solid #000;
+}
+
+.clear5{
+	clear: both;
+	height: 5px;
+}
+
+#panel_inner_checked .panel-body{
+	padding: 0px;
+}
+
+#hr_mange_time .panel-heading{
+	padding: 0px;
+	background: #fff;
+}
+
+#hr_mange_time .panel-heading li.active a{
+	background: #42C500;
+}
+
+#hr_mange_time .panel-heading li{
+	width: 16.6%;
+}
+
+#hr_mange_time .panel-heading li a{
+	background: #3F4A59;
+	border-radius: 0px;
+}
+
+#hr_mange_time_popup .panel-heading{
+	padding: 0px;
+	background: #fff;
+}
+
+#hr_mange_time_popup .panel-heading li.active a{
+	background: #42C500;
+}
+
+#hr_mange_time_popup .panel-heading li{
+	width: 16.6%;
+}
+
+#hr_mange_time_popup .panel-heading li a{
+	background: #3F4A59;
+	border-radius: 0px;
+}
+
+#request_pop_6 .panel-heading{
+	padding: 0px;
+	background: #fff;
+}
+
+#request_pop_6 .panel-heading li.active a{
+	background: #42C500;
+}
+
+#request_pop_6 .panel-heading li{
+	width: 16.6%;
+}
+
+#request_pop_6 .panel-heading li a{
+	background: #3F4A59;
+	border-radius: 0px;
+}
+
+.clear40{
+	clear: both;
+	height: 40px;
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1920px){
+	.desktop_tbl_display{
+		display: block !important;
+	}
+
+	#bs-collapse{
+		display: none !important;
+	}	
+	
+	.quick_desktop_tbl{
+		display: block !important;
+	}
+	
+	.request_desktop_tbl{
+		display: block !important;
+	}
+}
+
+@media only screen and (min-width: 320px) and (max-width: 1024px){
+	.desktop_tbl_display{
+		display: none !important;
+	}
+	
+	#bs-collapse{
+		display: block !important;
+	}
+	
+	.quick_desktop_tbl{
+		display: none !important;
+	}
+	
+	.request_desktop_tbl{
+		display: none !important;
+	}
+	
+	.btn_quick_mobile{
+		width: 100%;
+		height: 34px;
+		border-radius:1px; 
+		padding-top: 4px;
+	}
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1200px){
+	#button_checked label {
+		padding: 9px 4px;
+		font-size: 11px;
+		line-height: 22px;
+	}
+	
+	#button_checked select {
+		padding: 9px 4px;
+		font-size: 11px;
+		line-height: 22px;
+	}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+	.btn_quick_mobile{
+		margin-bottom: 10px;
+	}
+}
+
+@media only screen and (min-width: 320px) and (max-width: 1024px){
+	.btn_quick_mobile{
+		margin-bottom: 10px !important;
+	}	
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px){
+	#hr_mange_time .today_time li {
+		margin: 6px 4px !important;
+		width: 36px !important;
+	}
+	
+	#hr_mange_time .today_time label {
+		height: 33px !important;
+		font-size: 13px;
+	}
+	
+	#hr_mange_time_popup .today_time li {
+		margin: 6px 4px !important;
+		width: 36px !important;
+	}
+	
+	#hr_mange_time_popup .today_time label {
+		height: 33px !important;
+		font-size: 13px;
+	}
+	
+	#request_pop_6 .today_time li {
+		margin: 6px 4px !important;
+		width: 36px !important;
+	}
+	
+	#request_pop_6 .today_time label {
+		height: 33px !important;
+		font-size: 13px;
+	}
+	
+	#myModal_job_header .panel-body{
+		padding: 0px;
+		padding-top: 10px !important;
+	}
+	
+	#myModal_job_header .modal-body{
+		padding: 0px;
+	}
+}

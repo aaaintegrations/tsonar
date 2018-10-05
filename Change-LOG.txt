@@ -1,0 +1,8 @@
+/------------------------------------- 19-06/2018--------------------------------------/
+D:\xampp\htdocs\tsonar\application\views\frontend\user\signup.php
+D:\xampp\htdocs\tsonar\application\views\frontend\user\login.php
+D:\xampp\htdocs\tsonar\application\views\frontend\include\header.php
+D:\xampp\htdocs\tsonar\application\controllers\Home.php
+D:\xampp\htdocs\tsonar\application\models\General_model.php
+D:\xampp\htdocs\tsonar\public\css\style.css
+D:\xampp\htdocs\tsonar\vendor\thetechnicalcircle\codeigniter_social_login\src\Social.php

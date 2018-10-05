@@ -1,0 +1,11 @@
+/------------------------------------- 08-06/2018--------------------------------------/
+Table ts_users has been altered successfully.
+ALTER TABLE `ts_users` ADD `oauth_uid` VARCHAR(255) NOT NULL AFTER `status`, ADD `formattedName` VARCHAR(255) NOT NULL AFTER `oauth_uid`, ADD `companyLoc` VARCHAR(255) NOT NULL AFTER `formattedName`, ADD `industry` VARCHAR(255) NOT NULL AFTER `companyLoc`, ADD `headline` VARCHAR(255) NOT NULL AFTER `industry`, ADD `companyName` VARCHAR(255) NOT NULL AFTER `headline`, ADD `companyId` INT(100) NOT NULL AFTER `companyName`;
+
+Table ts_users has been altered successfully.
+ALTER TABLE `ts_users` ADD `startMonth` INT(50) NOT NULL AFTER `companyId`, ADD `startYear` INT(50) NOT NULL AFTER `startMonth`, ADD `jobTitle` VARCHAR(255) NOT NULL AFTER `startYear`, ADD `countryCode` VARCHAR(100) NOT NULL AFTER `jobTitle`, ADD `locale` VARCHAR(255) NOT NULL AFTER `countryCode`, ADD `profile_url` VARCHAR(255) NOT NULL AFTER `locale`;
+
+ALTER TABLE `ts_users` ADD `numConnections` INT(50) NOT NULL AFTER `locale`;
+ALTER TABLE `ts_users` CHANGE `avatar` `avatar` VARCHAR(255) CHARACTER SET latin1 COLLATE latin1_swedish_ci NOT NULL;
+/------------------------------------- 19-06/2018--------------------------------------/
+ALTER TABLE `ts_users` DROP `countryCode`;

@@ -1,0 +1,1539 @@
+@font-face {
+  font-family: 'icomoon';
+  src: url("../fonts/icomoon/icomoon.eot?srf3rx");
+  src: url("../fonts/icomoon/icomoon.eot?srf3rx#iefix") format("embedded-opentype"), url("../fonts/icomoon/icomoon.ttf?srf3rx") format("truetype"), url("../fonts/icomoon/icomoon.woff?srf3rx") format("woff"), url("../fonts/icomoon/icomoon.svg?srf3rx#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: lato , Arial;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.8;
+  color: #777777;
+  color: #7f7f7f;
+  background: #fff;
+  height: 100%;
+  position: relative;
+}
+
+a {
+  color: #42c500;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+a:hover, a:active, a:focus {
+  color: #42c500;
+  outline: none;
+}
+
+p {
+  margin-bottom: 1.5em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #000;
+  font-family: lato , Arial;
+  font-weight: 400;
+}
+
+::-webkit-selection {
+  color: #818892;
+  background: #f9f6f0;
+}
+
+::-moz-selection {
+  color: #818892;
+  background: #f9f6f0;
+}
+
+::selection {
+  color: #818892;
+  background: #f9f6f0;
+}
+
+#tsonar-header {
+  position: absolute;
+  z-index: 99;
+  width: 100%;
+  opacity: 1;
+  top: 0;
+  margin-top: 20px;
+}
+.banner_1
+{
+	background:url(../images/banner1.jpg);
+}
+.banner_2
+{
+	background:url(../images/banner2.jpg);
+}
+.banner_3
+{
+	background:url(../images/banner3.jpg);
+}
+
+
+.fancy {
+  line-height: 0.5;
+  text-align: center;
+  margin-bottom:15px;
+}
+.fancy span {
+  display: inline-block;
+  position: relative;  
+  font-size:24px !important;
+}
+.fancy span:before,
+.fancy span:after {
+  content: "";
+  position: absolute;
+  height: 5px;
+  border-top: 1px solid white;
+  top: 10px;
+  width: 100px;
+}
+.fancy span:before {
+  right: 100%;
+  margin-right: 15px;
+}
+.fancy span:after {
+  left: 100%;
+  margin-left: 15px;
+}
+
+.btn_rquest_1
+{
+	background-color:transparent !important;
+	border:solid 2px #fff !important;
+	border-radius:5px !important;
+	float:left;
+	font-size:16px;
+	font-weight:normal;
+	font-family:lato;
+	padding-top:15px;
+	padding-bottom:15px;
+		padding-left:46px !important;
+	padding-right:46px !important;
+	text-transform:uppercase;
+}
+.btn_rquest_1:hover
+{
+	background-color:#42c500 !important;
+	border:solid 2px #42c500 !important;
+	border-radius:5px !important;
+	float:left;
+	font-size:16px;
+	font-weight:normal;
+	font-family:lato;
+	padding-top:15px;
+	padding-bottom:15px;
+}
+.btn_rquest_2
+{
+	background-color:#42c500 !important;
+	border:solid 2px #42c500 !important;
+	border-radius:5px !important;
+	float:left;
+	font-size:16px;
+	font-weight:normal;
+	font-family:lato;
+	padding-top:15px;
+	padding-bottom:15px;
+	color:#fff;
+	margin-left:18px;
+	padding-left:46px !important;
+	padding-right:46px !important;
+	text-transform:uppercase;
+}
+
+.btn_rquest_2:hover
+{
+	background-color:transparent !important;
+	border:solid 2px #fff !important;
+	border-radius:5px !important;
+	float:left;
+	font-size:16px;
+	font-weight:normal;
+	font-family:lato;
+	padding-top:15px;
+	padding-bottom:15px;
+	color:#fff;
+	margin-left:18px;
+}
+.tsornar_banner
+{
+	font-size:24px;
+	color:#d7d7d7;
+	font-family:lato, Arial;
+}
+.tsornar_banner_t
+{
+	font-size:18px;
+	color:#d7d7d7;
+	font-family:lato, Arial;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+  #tsonar-header {
+    margin-top: 0;
+    background: #fff;
+    -webkit-box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.1);
+    -ms-box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.1);
+  }
+  #tsonar-header .navbar-brand {
+    color: #42c500 !important;
+  }
+  #tsonar-header #navbar li a {
+    color: rgba(0, 0, 0, 0.5) !important;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+	font-size:14px !important;
+	text-transform:uppercase !important;
+	font-family:Open Sans, Arial !important;
+	font-weight:bold !important;
+  }
+  #tsonar-header #navbar li a:hover {
+    color: #c6c6c6 !important;
+  }
+  #tsonar-header #navbar li a span:before {
+    background: transparent !important;
+  }
+  #tsonar-header #navbar li.active a {
+    background: transparent;
+    background: none;
+    color: #c6c6c6 !important;
+  }
+  #tsonar-header #navbar li.active a span:before {
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+  }
+}
+#tsonar-header .navbar {
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+#tsonar-header #navbar li a {
+  font-family: lato , Arial;
+  color: rgba(255, 255, 255, 0.5);
+  position: relative;
+}
+#tsonar-header #navbar li a span {
+  position: relative;
+  display: block;
+  padding-bottom: 2px;
+}
+#tsonar-header #navbar li a span:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #42c500;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  -moz-transform: scaleX(0);
+  -ms-transform: scaleX(0);
+  -o-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  -moz-transition: all 0.3s ease-in-out 0s;
+  -ms-transition: all 0.3s ease-in-out 0s;
+  -o-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+#tsonar-header #navbar li a:hover {
+  color: #c6c6c6;
+}
+#tsonar-header #navbar li a:hover span:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  -moz-transform: scaleX(1);
+  -ms-transform: scaleX(1);
+  -o-transform: scaleX(1);
+  transform: scaleX(1);
+}
+#tsonar-header #navbar li.active a {
+  background: transparent;
+  background: none;
+  color: #c6c6c6;
+}
+#tsonar-header #navbar li.active a span:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+#tsonar-header .navbar-brand {
+  float: left;
+  display: block;
+  font-size: 25px;
+  font-weight: 700;
+  padding-left: 0;
+  color: #42c500;
+  font-family:lato, Arial;
+}
+#tsonar-header.navbar-fixed-top {
+  position: fixed !important;
+  background: #fff;
+  -webkit-box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.1);
+  -ms-box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.1);
+  margin-top: 0px;
+  top: 0;
+}
+#tsonar-header.navbar-fixed-top .navbar-brand {
+  color: #42c500;
+}
+#tsonar-header.navbar-fixed-top #navbar li a {
+  color: rgba(0, 0, 0, 0.5);
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+#tsonar-header.navbar-fixed-top #navbar li a:hover {
+  color: #c6c6c6;
+}
+#tsonar-header.navbar-fixed-top #navbar li.active a {
+  background: transparent;
+  background: none;
+  color: #c6c6c6;
+}
+#tsonar-header.navbar-fixed-top #navbar li.active a span:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+#tsonar-header .navbar-default {
+  border: transparent;
+  background: transparent;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -ms-border-radius: 0px;
+  border-radius: 0px;
+}
+@media screen and (max-width: 768px) {
+  #tsonar-header .navbar-default {
+    margin-top: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+}
+#tsonar-header .navbar-default .brand-slogan {
+  margin: 28px 0 0 15px;
+  float: left;
+  letter-spacing: 2px;
+  color: #adadad;
+}
+#tsonar-header .navbar-default .brand-slogan em {
+  color: #42c500;
+  font-style: normal;
+}
+#tsonar-header a {
+  -webkit-transition: 0s;
+  -o-transition: 0s;
+  transition: 0s;
+  	font-size:14px !important;
+	text-transform:uppercase !important;
+	font-family:Open Sans, Arial !important;
+	font-weight:bold !important;
+}
+
+.section-heading {
+  float: left;
+  width: 100%;
+  padding-bottom: 50px;
+  margin-bottom: 50px;
+  clear: both;
+}
+.section-heading h2 {
+  font-size: 50px;
+  font-weight: 300;
+  color: #444;
+  text-transform: uppercase;
+  position: relative;
+  display: block;
+  padding-bottom: 20px;
+  line-height: 1.5;
+}
+.section-heading h2:after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 80px;
+  height: 2px;
+  background: #42c500;
+  left: 50%;
+  margin-left: -40px;
+  bottom: 0;
+}
+@media screen and (max-width: 768px) {
+  .section-heading h2 {
+    font-size: 30px;
+  }
+}
+.section-heading h3 {
+  font-weight: 300;
+  line-height: 1.5;
+  color: #929292;
+}
+@media screen and (max-width: 768px) {
+  .section-heading h3 {
+    font-size: 24px !important;
+    line-height: 34px;
+  }
+}
+
+.btn {
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+
+#tsonar-about-us,
+#tsonar-features,
+#tsonar-testimonials,
+#tsonar-pricing,
+#tsonar-press {
+  padding: 4em 0;
+}
+.tsonar_us_area
+{
+	background:#f1f1f1;
+}
+.about_heading
+{
+	font-size:24px;
+	color:#717171;
+	text-transform:uppercase;
+	margin-top:80px;
+}
+.about_heading span
+{
+	font-size:24px;
+	color:#42c500;
+	text-transform:uppercase;
+}
+.p0
+{
+	padding:0px !important;
+}
+.about_label_m
+{
+	color:#8e8e8e !important;
+	font-size:14px !important;
+}
+@media screen and (max-width: 480px) {
+  #tsonar-our-services,
+  #tsonar-about-us,
+  #tsonar-features,
+  #tsonar-testimonials,
+  #tsonar-pricing,
+  #tsonar-press {
+    padding: 5em 0;
+  }
+}
+
+#tsonar-testimonials {
+  background: #42c500;
+}
+#tsonar-testimonials .section-heading h2 {
+  color: white;
+}
+#tsonar-testimonials .section-heading h2:after {
+  background: rgba(255, 255, 255, 0.2);
+}
+#tsonar-testimonials .section-heading .subtext h3 {
+  color: rgba(255, 255, 255, 0.5);
+}
+#tsonar-testimonials .box-testimony {
+  margin-bottom: 2em;
+  float: left;
+}
+#tsonar-testimonials .box-testimony a {
+  color: rgba(255, 255, 255, 0.5);
+}
+#tsonar-testimonials .box-testimony a:hover, #tsonar-testimonials .box-testimony a:focus, #tsonar-testimonials .box-testimony a:active {
+  color: white;
+  text-decoration: none;
+}
+#tsonar-testimonials .box-testimony blockquote {
+  padding-left: 0;
+  border-left: none;
+  padding: 40px;
+  background: #fff;
+  position: relative;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  border-radius: 4px;
+}
+#tsonar-testimonials .box-testimony blockquote:after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 40px;
+  border-top: 15px solid black;
+  border-top-color: #fff;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+}
+#tsonar-testimonials .box-testimony blockquote .quote {
+  position: absolute;
+  top: 0;
+  left: 10px;
+  text-align: center;
+  font-size: 30px;
+  line-height: 0;
+  display: table;
+  color: #fff;
+  width: 56px;
+  height: 56px;
+  margin-top: -30px;
+  background: #42c500;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+}
+#tsonar-testimonials .box-testimony blockquote .quote > span {
+  display: table-cell;
+  vertical-align: middle;
+}
+#tsonar-testimonials .box-testimony blockquote p {
+  font-style: italic;
+}
+#tsonar-testimonials .box-testimony .author {
+  line-height: 20px;
+  color: white;
+  font-size: 20px;
+  margin-left: 20px;
+}
+#tsonar-testimonials .box-testimony .author .subtext {
+  display: block;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 16px;
+}
+
+#tsonar-pricing .price-box {
+  border: 2px solid #ECEEF0;
+  text-align: center;
+  padding: 30px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  border-radius: 5px;
+  margin-bottom: 40px;
+  position: relative;
+}
+#tsonar-pricing .price-box.popular {
+  border: 2px solid #42c500;
+}
+#tsonar-pricing .price-box.popular .popular-text {
+  top: 0;
+  left: 50%;
+  margin-left: -54px;
+  margin-top: -2em;
+  position: absolute;
+  padding: 4px 20px;
+  background: #42c500;
+  color: #fff;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  border-radius: 4px;
+}
+#tsonar-pricing .price-box.popular .popular-text:after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -10px;
+  border-top: 10px solid black;
+  border-top-color: #42c500;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+}
+#tsonar-pricing .pricing-plan {
+  margin: 0;
+  padding: 0;
+  font-size: 15px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+#tsonar-pricing .price {
+  font-size: 50px;
+  color: #000;
+}
+#tsonar-pricing .price .currency {
+  font-size: 20px;
+  top: -1.2em;
+}
+#tsonar-pricing .price small {
+  font-size: 16px;
+}
+#tsonar-pricing .pricing-info {
+  padding: 0;
+  margin: 0 0 30px 0;
+}
+#tsonar-pricing .pricing-info li {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-align: center;
+}
+
+
+
+@media screen and (max-width: 992px) {
+  #tsonar-our-services .box {
+    min-height: inherit;
+
+  }
+}
+#tsonar-our-services .box .icon {
+  width: 85px;
+  height: 85px;
+  margin: 0 auto;
+  top: 0;
+  margin-top: -70px;
+  margin-bottom: 30px;
+  position: relative;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+  display: table;
+  text-align: center;
+}
+#tsonar-our-services .box .icon > span {
+  display: table-cell;
+  vertical-align: middle;
+}
+#tsonar-our-services .box .icon > span i {
+  font-size: 40px;
+  color: #fff !important;
+  margin: 0;
+  padding: 0;
+}
+#tsonar-our-services .box .icon.colored-1 {
+  background: #2aaf67;
+}
+#tsonar-our-services .box .icon.colored-2 {
+  background: #00bff3;
+}
+#tsonar-our-services .box .icon.colored-3 {
+  background: #f26522;
+}
+#tsonar-our-services .box .icon.colored-4 {
+  background: #e52b50;
+}
+#tsonar-our-services .box .icon.colored-5 {
+  background: #2fc5cc;
+}
+#tsonar-our-services .box .icon.colored-6 {
+  background: #42c500;
+}
+#tsonar-our-services .box .step-number {
+  font-size: 16px;
+  display: block;
+  color: #d1d1d1;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+#tsonar-our-services .box h3 {
+  margin: 0 0 20px 0;
+  padding: 0;
+  font-weight: 400;
+  font-size: 20px;
+  color: #444;
+}
+
+#tsonar-features {
+  padding: 4em 0;
+}
+@media screen and (max-width: 768px) {
+  #tsonar-features {
+    padding: 4em 0;
+  }
+}
+#tsonar-features .tsonar-service {
+  margin-bottom: 0px;
+  float: left;
+  border:solid 1px #efefef;
+  padding:20px;
+}
+#tsonar-features .tsonar-service:hover {
+  margin-bottom: 0px;
+  float: left;
+  border:solid 1px #42c500;
+  padding:20px;
+  background:#42c500;
+  color:#42c500;
+}
+#tsonar-features .tsonar-service svg {
+  float: left;
+  width: 35px;
+  height:35px;
+  color:#223f59;
+  fill:#223f59;
+}
+#tsonar-features .tsonar-service .tsonar-icon {
+  float: left;
+  width: 20%;
+}
+
+#tsonar-features .tsonar-service .tsonar-desc {
+  width: 80%;
+  float: right;
+}
+#tsonar-features .tsonar-service .tsonar-desc p {
+
+ color:#bababa;
+ line-height:24px !important;
+ font-size:14px !important;
+}
+#tsonar-features .tsonar-service .tsonar-desc h3 {
+  margin-top: 0;
+  font-size: 18px;
+  color:#717171;
+  font-weight:bold;
+}
+
+
+.tsonar-service:hover p 
+{
+	color:#fff !important;
+}
+.tsonar-service:hover h3 
+{
+	color:#fff !important;
+}
+.tsonar-service:hover svg
+{
+	  color:#fff !important;
+  fill:#fff !important;
+}
+.tsonar-service:hover path
+{
+	  color:#fff !important;
+  fill:#fff !important;
+}
+
+
+#tsonar-press .tsonar-press-item {
+  background: #fff;
+  float: left;
+  margin-bottom: 30px;
+  position: relative;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  border-radius: 4px;
+}
+@media screen and (max-width: 480px) {
+  #tsonar-press .tsonar-press-item {
+    display: block !important;
+  }
+}
+#tsonar-press .tsonar-press-item .tsonar-press-text,
+#tsonar-press .tsonar-press-item .tsonar-press-img {
+  width: 50%;
+}
+@media screen and (max-width: 480px) {
+  #tsonar-press .tsonar-press-item .tsonar-press-text,
+  #tsonar-press .tsonar-press-item .tsonar-press-img {
+    height: inherit;
+    float: none !important;
+    width: 100%;
+    display: block !important;
+  }
+}
+#tsonar-press .tsonar-press-item .tsonar-press-text {
+  float: left;
+  padding: 20px;
+}
+#tsonar-press .tsonar-press-item .tsonar-press-text .tsonar-press-title {
+  margin: 0 0 20px 0;
+  padding: 0 0 10px 0;
+  font-weight: 400;
+  font-size: 20px;
+  color: #444;
+  position: relative;
+}
+#tsonar-press .tsonar-press-item .tsonar-press-text .tsonar-press-title .tsonar-border {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 2px;
+  width: 30px;
+  background: #42c500;
+}
+#tsonar-press .tsonar-press-item .tsonar-press-img {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  background-size: cover;
+}
+@media screen and (max-width: 480px) {
+  #tsonar-press .tsonar-press-item .tsonar-press-img {
+    height: 200px;
+    left: 0;
+    top: 0;
+    position: relative;
+    width: 100%;
+  }
+}
+
+.tsonar-nav-toggle {
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+  text-decoration: none;
+}
+.tsonar-nav-toggle.active i::before, .tsonar-nav-toggle.active i::after {
+  background: #42c500;
+}
+.tsonar-nav-toggle:hover, .tsonar-nav-toggle:focus, .tsonar-nav-toggle:active {
+  outline: none;
+  border-bottom: none !important;
+}
+.tsonar-nav-toggle i {
+  position: relative;
+  display: -moz-inline-stack;
+  display: inline-block;
+  zoom: 1;
+  *display: inline;
+  width: 25px;
+  height: 3px;
+  color: #42c500;
+  font: bold 14px/.4 Helvetica;
+  text-transform: uppercase;
+  text-indent: -55px;
+  background: #42c500;
+  transition: all .2s ease-out;
+}
+.tsonar-nav-toggle i::before, .tsonar-nav-toggle i::after {
+  content: '';
+  width: 25px;
+  height: 3px;
+  background: #42c500;
+  position: absolute;
+  left: 0;
+  -webkit-transition: 0.2s;
+  -o-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.tsonar-nav-toggle i::before {
+  top: -7px;
+}
+
+.tsonar-nav-toggle i::after {
+  bottom: -7px;
+}
+
+.tsonar-nav-toggle:hover i::before {
+  top: -10px;
+}
+
+.tsonar-nav-toggle:hover i::after {
+  bottom: -10px;
+}
+
+.tsonar-nav-toggle.active i {
+  background: transparent;
+}
+
+.tsonar-nav-toggle.active i::before {
+  top: 0;
+  -webkit-transform: rotateZ(45deg);
+  -moz-transform: rotateZ(45deg);
+  -ms-transform: rotateZ(45deg);
+  -o-transform: rotateZ(45deg);
+  transform: rotateZ(45deg);
+}
+
+.tsonar-nav-toggle.active i::after {
+  bottom: 0;
+  -webkit-transform: rotateZ(-45deg);
+  -moz-transform: rotateZ(-45deg);
+  -ms-transform: rotateZ(-45deg);
+  -o-transform: rotateZ(-45deg);
+  transform: rotateZ(-45deg);
+}
+
+.tsonar-nav-toggle {
+  position: absolute;
+  top: 12px;
+  right: 0px;
+  z-index: 21;
+  padding: 6px 0 0 0;
+  display: block;
+  margin: 0 auto;
+  display: none;
+  height: 44px;
+  width: 44px;
+  border-bottom: none !important;
+}
+@media screen and (max-width: 768px) {
+  .tsonar-nav-toggle {
+    display: block;
+  }
+}
+
+.person {
+  text-align: center;
+  margin-bottom: 40px;
+  float: left;
+  width: 100%;
+}
+.person img {
+  display: block;
+  margin: 0 auto;
+  height: 150px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+}
+.person .name {
+  font-size: 18px !important;
+  color:#717171 !important;
+  font-weight:bold !important;
+}
+.person p {
+  font-size: 14px !important;
+  color:#bababa !important;
+  font-weight:normal !important;
+  line-height:24px;
+}
+.person .position {
+  text-transform: uppercase;
+  color: #c3c3c3;
+  margin-bottom: 30px;
+  letter-spacing: 2px;
+}
+
+#footer {
+  padding: 50px 0;
+  color: #7f7f7f;
+  background:url(../images/footer_bg.jpg);
+  background-size:100% 100%;
+  padding-bottom:0px;
+  font-size:14px;
+}
+
+.footer_label
+{
+	color:#a8a7a6;
+	font-size:14px;
+	font-weight:normal;
+	font-family:lato, Arial;
+	line-height:36px;
+}
+.footer_label h2
+{
+	color:#fff;
+	font-size:18px;
+	font-weight:normal;
+	font-family:lato, Arial;
+	margin-bottom:20px;
+	margin-top:60px !important;
+}
+.footer_label a
+{
+	color:#a8a7a6;
+	font-size:14px;
+	font-weight:normal;
+	font-family:lato, Arial;
+	line-height:36px;
+	display:block;
+}
+.footer_label strong
+{
+	text-transform:uppercase;
+}
+
+.footer_bottom
+{
+	padding-top:15px;
+	padding-bottom:4px;
+	margin-top: 30px;
+}
+
+
+
+
+
+#footer .copyright {
+  margin-bottom: 0px;
+  padding-bottom: 0;
+  font-size:14px;
+}
+#footer .copyright a {
+  font-size:14px;
+  color:#979797;
+}
+.btn {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+.btn.btn-primary {
+  background: #42c500;
+  color: #fff;
+
+
+}
+.btn.btn-primary:hover, .btn.btn-primary:active, .btn.btn-primary:focus {
+  box-shadow: none;
+  background: #42c500;
+}
+.btn:hover, .btn:active, .btn:focus {
+  background: #393e46 !important;
+  color: #fff;
+  outline: none !important;
+}
+.btn.btn-default:hover, .btn.btn-default:focus, .btn.btn-default:active {
+
+}
+
+.social {
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+  position: relative;
+  width: 100%;
+}
+.social li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+}
+.social li a {
+  font-size: 16px;
+  display: table;
+  width: 40px;
+  height: 40px;
+  margin: 0 4px;
+}
+.social li a i {
+  display: table-cell;
+  vertical-align: middle;
+}
+.social li a:hover, .social li a:active, .social li a:focus {
+  text-decoration: none;
+  border-bottom: none;
+}
+.social li a.social-box {
+  background: #42c500;
+  color: #fff;
+}
+.social li a.social-circle {
+  background: #42c500;
+  color: #fff;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+}
+.social li a:hover {
+  background: #42c500 !important;
+}
+.social.social-box a {
+  background: #42c500;
+  color: #fff;
+}
+.social.social-circle a {
+  background: #a6a6a6;
+  color: #fff;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+}
+
+.owl-carousel .owl-controls .owl-nav {
+  opacity: 0;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+.owl-carousel:focus .owl-controls .owl-nav, .owl-carousel:hover .owl-controls .owl-nav, .owl-carousel:active .owl-controls .owl-nav {
+  opacity: 1;
+}
+.owl-carousel .btn-primary:hover, .owl-carousel .btn-primary:focus, .owl-carousel .btn-primary:active {
+  background: transparent !important;
+  border: 2px solid #fff !important;
+}
+
+.owl-carousel .owl-controls,
+.owl-carousel-posts .owl-controls {
+  margin-top: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .owl-carousel .owl-controls .owl-nav {
+    display: none;
+  }
+}
+
+.owl-carousel .owl-controls .owl-nav .owl-next,
+.owl-carousel .owl-controls .owl-nav .owl-prev {
+  top: 50%;
+  margin-top: -29px;
+  z-index: 9999;
+  position: absolute;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+.owl-carousel .owl-controls .owl-nav .owl-next i:before,
+.owl-carousel .owl-controls .owl-nav .owl-prev i:before {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.owl-carousel-posts .owl-controls .owl-nav .owl-next,
+.owl-carousel-posts .owl-controls .owl-nav .owl-prev {
+  top: 24%;
+}
+
+.owl-carousel .owl-controls .owl-nav .owl-next {
+  right: 0;
+}
+.owl-carousel .owl-controls .owl-nav .owl-next:hover {
+  right: 10px;
+}
+.owl-carousel .owl-controls .owl-nav .owl-next:hover i:before {
+  color: white;
+}
+
+.owl-carousel .owl-controls .owl-nav .owl-prev {
+  left: 0;
+}
+.owl-carousel .owl-controls .owl-nav .owl-prev:hover {
+  left: 10px;
+}
+.owl-carousel .owl-controls .owl-nav .owl-prev:hover i:before {
+  color: white;
+}
+
+.owl-carousel-posts .owl-controls .owl-nav .owl-next i,
+.owl-carousel-posts .owl-controls .owl-nav .owl-prev i {
+  color: #444;
+}
+.owl-carousel-posts .owl-controls .owl-nav .owl-next:hover i,
+.owl-carousel-posts .owl-controls .owl-nav .owl-prev:hover i {
+  color: #000;
+}
+
+.owl-carousel-fullwidth.tsonar-light-arrow .owl-controls .owl-nav .owl-next i,
+.owl-carousel-fullwidth.tsonar-light-arrow .owl-controls .owl-nav .owl-prev i {
+  color: #fff;
+}
+.owl-carousel-fullwidth.tsonar-light-arrow .owl-controls .owl-nav .owl-next:hover i,
+.owl-carousel-fullwidth.tsonar-light-arrow .owl-controls .owl-nav .owl-prev:hover i {
+  color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+  .owl-theme .owl-controls .owl-nav {
+    display: none;
+  }
+}
+
+.owl-theme .owl-controls .owl-nav [class*="owl-"] {
+  background: none !important;
+}
+.owl-theme .owl-controls .owl-nav [class*="owl-"] i {
+  font-size: 30px;
+}
+.owl-theme .owl-controls .owl-nav [class*="owl-"] i:hover, .owl-theme .owl-controls .owl-nav [class*="owl-"] i:focus {
+  background: none !important;
+}
+.owl-theme .owl-controls .owl-nav [class*="owl-"]:hover, .owl-theme .owl-controls .owl-nav [class*="owl-"]:focus {
+  background: none !important;
+}
+
+.owl-theme .owl-dots {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.owl-carousel-fullwidth.owl-theme .owl-dots {
+  bottom: 0;
+  margin-bottom: 2.5em;
+}
+
+.owl-theme .owl-dots .owl-dot span {
+  width: 21px;
+  height: 21px;
+  background-color:transparent;
+  -webkit-transition: 0.2s;
+  -o-transition: 0.2s;
+  transition: 0.2s;
+  border: 2px solid #a5a8ad;
+}
+.owl-theme .owl-dots .owl-dot span:hover {
+  background: none;
+  background: white;
+}
+
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+  background: transparent;
+  border: 3px solid #42c500;
+    width: 25px;
+  height: 25px;
+}
+
+.owl-carousel-fullwidth .item, .owl-carousel-fullwidth .tsonar-owl-text-wrap {
+  height: 647px;
+  display: table;
+  width: 100%;
+}
+@media screen and (max-width: 768px) {
+  .owl-carousel-fullwidth .item, .owl-carousel-fullwidth .tsonar-owl-text-wrap {
+    height: inherit;
+    padding: 5em 0;
+  }
+}
+.owl-carousel-fullwidth .tsonar-owl-text-wrap {
+  position: relative;
+}
+.owl-carousel-fullwidth .item {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top left;
+  position: relative;
+}
+.owl-carousel-fullwidth .item .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 8;
+}
+.owl-carousel-fullwidth .item img {
+  max-width: 100%;
+}
+.owl-carousel-fullwidth .item .iphone-image {
+  position: relative;
+  z-index: 99;
+}
+.owl-carousel-fullwidth .item .iphone-image .iphone {
+  float: right;
+  text-align: right;
+  position: relative;
+  bottom: -12em;
+}
+@media screen and (max-width: 768px) {
+  .owl-carousel-fullwidth .item .iphone-image .iphone {
+    bottom: 0em;
+    text-align: center;
+    float: none !important;
+    margin: 0 auto;
+    display: block;
+  }
+}
+.owl-carousel-fullwidth .item .iphone-image .iphone img {
+  max-width: 100%;
+}
+.owl-carousel-fullwidth .item .tsonar-owl-text {
+  display: table-cell;
+  vertical-align: middle;
+  z-index: 10;
+  position: relative;
+}
+.owl-carousel-fullwidth .item .tsonar-owl-text a {
+  color: white;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+.owl-carousel-fullwidth .item .tsonar-owl-text a:hover {
+  text-decoration: none;
+  color: white;
+  border-bottom: 1px solid white;
+}
+.owl-carousel-fullwidth .item .tsonar-owl-text .tsonar-lead, .owl-carousel-fullwidth .item .tsonar-owl-text .tsonar-lead-2, .owl-carousel-fullwidth .item .tsonar-owl-text .tsonar-sub-lead {
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+.owl-carousel-fullwidth .item .tsonar-owl-text .tsonar-lead {
+  font-weight: normal;
+  margin-bottom: 17px;
+  margin-top: 0;
+  color: #fff;
+  font-size: 24px;
+  color: #fff;
+}
+@media screen and (max-width: 768px) {
+  .owl-carousel-fullwidth .item .tsonar-owl-text .tsonar-lead {
+    margin-bottom: 20px;
+    font-size: 16px;
+    line-height: 30px;
+  }
+}
+.owl-carousel-fullwidth .item .tsonar-owl-text .tsonar-sub-lead {
+  font-size: 16px;
+  margin-bottom: 30px;
+  color: white;
+  font-weight:normal;
+}
+@media screen and (max-width: 768px) {
+  .owl-carousel-fullwidth .item .tsonar-owl-text .tsonar-sub-lead {
+    font-size: 24px;
+    line-height: 34px;
+  }
+}
+
+.js .to-animate,
+.js .to-animate-2,
+.js .single-animate {
+  opacity: 0;
+}
+
+@media screen and (max-width: 480px) {
+  .col-xxs-12 {
+    float: none;
+    width: 100%;
+  }
+}
+
+.fast_easy_hd
+{
+	color:#717171 !important;
+	font-size:24px !important;
+	font-family:lato, Arial !important;
+	font-weight:normal !important;
+	margin-bottom:50px;
+}
+.fast_easy_step1
+{
+	color:#d8d8d8 !important;
+	font-size:60px !important;
+	font-family:lato, Arial !important;
+	font-weight:lighter !important;
+	margin-bottom:30px;
+	border-bottom:dashed 1px #dcdcdc;
+	padding-bottom:37px;
+}
+.circle_steps
+{
+	width:12px;
+	height:12px;
+	border-radius:50%;
+	background:#fff;
+	position:absolute;
+	left:0;
+	right:0;
+	margin:auto;
+	top: 117px;
+	border:solid 3px #4dc80f;
+}
+
+.green_bg
+{
+	background:url(../images/green_bg.jpg);
+	background-size:100% 100%;
+	min-height:107px;
+}
+.green_bg_label
+{
+	padding:0px;
+	background-color:transparent !important;
+		padding-top: 21px;
+}
+.green_bg_label_lbl
+{
+		color:#fff !important;
+	font-size:18px !important;
+	font-family:lato, Arial !important;
+	font-weight:normal !important;
+	padding:0px;
+	background-color:transparent !important;
+	float:left;
+	margin-top:16px;
+
+}
+.btn_white_bottom
+{
+	color:#223f59 !important;
+	font-size:16px !important;
+	font-family:lato, Arial !important;
+	font-weight:normal !important;
+	padding:0px;
+	background-color:#fff !important;
+	float:left;
+	border-radius:5px;
+	padding:15px;
+	padding-left:35px;
+	padding-right:35px;
+	text-decoration:none !important;
+	border:solid 2px #fff;
+	text-transform:uppercase;
+}
+.btn_white_bottom:hover
+{
+	color:#fff !important;
+	font-size:16px !important;
+	font-family:lato, Arial !important;
+	font-weight:normal !important;
+	padding:0px;
+	background-color:transparent !important;
+	text-decoration:none !important;
+		float:left;
+	border-radius:5px;
+	padding:15px;
+	padding-left:35px;
+	padding-right:35px;
+	border:solid 2px #fff;
+}
+
+
+
+@media screen and (max-width: 768px) {
+  .row-bottom-padded-lg {
+    padding-bottom: 2em;
+  }
+}
+
+.row-bottom-padded-md {
+  padding-bottom: 4em;
+}
+@media screen and (max-width: 768px) {
+  .row-bottom-padded-md {
+    padding-bottom: 2em;
+  }
+}
+
+.row-bottom-padded-sm {
+  padding-bottom: 2em;
+}
+@media screen and (max-width: 768px) {
+  .row-bottom-padded-sm {
+    padding-bottom: 2em;
+  }
+}
+
+.tsonar-animated {
+  -webkit-animation-duration: .3s;
+  animation-duration: .3s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+@media (min-width: 768px) and (max-width: 991px){
+.navbar-nav > li > a {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.btn_white_bottom
+{
+	padding:5px;
+	text-align:center;
+}
+.btn_white_bottom:hover
+{
+	padding:5px;
+	text-align:center;
+}
+.social li a {
+    font-size: 16px;
+    display: table;
+    width: 32px;
+    height: 32px;
+    margin: 0 4px;
+}
+
+}
+
+
+@media (min-width: 320px) and (max-width: 767px){
+	
+	.owl-carousel-fullwidth .item .tsonar-owl-text .tsonar-sub-lead {
+    font-size: 15px;
+    line-height: 22px;
+}
+
+	
+	.p0
+	{
+		padding-left:15px !important;
+		padding-right:15px !important;
+	}
+	.about_heading {
+    margin-top: 30px;
+}
+.circle_steps
+{
+	display:none;
+}
+.btn_white_bottom
+{
+	margin-bottom:30px;
+}
+#tsonar-our-services, #tsonar-about-us, #tsonar-features, #tsonar-testimonials, #tsonar-pricing, #tsonar-press{
+    padding: 0em !important;
+}
+}
+@media only screen and (min-width: 320px) and (max-width: 500px){
+	
+	.btn_rquest_2
+{
+	margin-left:0px;
+	margin-top:10px;
+}
+	
+	
+	
+	
+	}

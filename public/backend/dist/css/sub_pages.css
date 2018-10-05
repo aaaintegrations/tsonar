@@ -1,0 +1,1456 @@
+#myModall3 .dropdown-menu {
+
+     left: 65px;
+
+}
+
+ #demo3 a {
+
+     display: block;
+
+     height: 38px;
+
+     padding: 8px 10px;
+
+}
+
+ #demo3 a:hover, #demo3 a:active, #demo3 a:focus {
+
+     outline: none;
+
+     text-decoration: none;
+
+     background: #42C500;
+
+     color: #fff;
+
+}
+
+ #myModall3 .modal_wdith_intro {
+
+     width: 60% !important;
+
+}
+
+ .btn_width {
+
+     width: 179px;
+
+}
+
+ #myModal .modal-dialog {
+
+     width: 60% !important;
+
+}
+
+ #demo3 table td {
+
+     padding: 0px !important;
+
+     height: 38px;
+
+     vertical-align: middle !important;
+
+}
+
+ .table_intro tbody tr td {
+
+     border: 1px solid #dcdcdc !important;
+
+     padding: 0px;
+
+     white-space: nowrap;
+
+     font-size: 12px;
+
+     font-weight: 500;
+
+}
+
+ .table_intro thead tr td {
+
+     border: 1px solid #dcdcdc !important;
+
+     padding: 0px;
+
+}
+
+ #table_job_intro thead tr td {
+
+     border: none;
+
+}
+
+ #table_job_intro tbody tr td {
+
+     border: none;
+
+}
+
+ .code {
+
+     background: #d9d9d9;
+
+     color: #777;
+
+     border-radius: 5px;
+
+     padding: 5px;
+
+}
+
+ #button_checked label {
+
+     transition: 0.25s ease;
+
+     padding: 9px 10px;
+
+     height: 40px;
+
+     width: 100%;
+
+     margin-bottom: 0px;
+
+}
+
+ #button_checked input {
+
+     display: none;
+
+}
+
+ #button_checked input:checked + label {
+
+     color: #fff;
+
+     background: #42C500;
+
+}
+
+ #button_checked input:checked + label:hover {
+
+     color: #fff;
+
+     background: #42C500;
+
+}
+
+ .display_none_talent3_percentage {
+
+     float: right;
+
+     width: 10px !important;
+
+     margin-right: 11px;
+
+     margin-top: -37px;
+
+}
+
+ .gj-datepicker-md [role=right-icon] {
+
+     top: 9px !important;
+
+}
+
+ .gj-unselectable{
+
+     width: 100%;
+
+}
+
+ #pay_frst_drp:visited, #pay_frst_drp:active, #pay_frst_drp:focus{
+
+     background: #42C500;
+
+     color: #fff;
+
+}
+
+ #pay_sec_drp:visited, #pay_sec_drp:active, #pay_sec_drp:focus{
+
+     background: #42C500;
+
+     color: #fff;
+
+}
+
+ .active_select:visited, .active_select:active, .active_select:focus{
+
+     background-color: #42C500;
+
+     color: #fff;
+
+}
+
+ option{
+
+     background: #fff;
+
+     color: #000;
+
+}
+
+ #date_tabs .panel-heading a {
+
+     color: #333;
+
+     padding: 3px;
+
+     font-size: 18px;
+
+     width: 95px;
+
+     text-align: center;
+
+}
+
+ #date_tabs .panel-heading {
+
+     background-color: white;
+
+     border-color: #ddd;
+
+     padding: 0px;
+
+}
+
+ #date_tabs {
+
+     border-color: transparent;
+
+}
+
+ .date_events ul{
+
+     padding: 0px;
+
+     list-style-type: none;
+
+}
+
+ .date_events ul li{
+
+     float: left;
+
+}
+
+ #date_tabs .panel-body{
+
+     padding: 0px 0px 5px;
+
+}
+
+ .date_events li a .label{
+
+     padding: .2em 0.3em .2em !important;
+
+     font-size: 80% !important;
+
+}
+
+ #calendar_dropdown .slimScrollDiv{
+
+     height: 79px !important;
+
+}
+
+ .input-group .input-group-addon {
+
+     border-color: white;
+
+}
+
+ @media only screen and (min-width: 320px) and (max-width: 1024px){
+
+     .time_tab_desktop{
+
+         display: none !important;
+
+    }
+
+     #faqAccordion{
+
+         display: block !important;
+
+    }
+
+     .show_data {
+
+         display: none !important;
+
+    }
+
+}
+
+ @media only screen and (min-width: 1200px) and (max-width: 1920px){
+
+     .today_time li {
+
+         margin: 6px 10px !important;
+
+    }
+
+}
+
+ @media only screen and (min-width: 1025px) and (max-width: 1199px){
+
+     .today_time li {
+
+         margin: 6px 15px !important;
+
+    }
+
+}
+
+ @media only screen and (min-width: 320px) and (max-width: 767px){
+
+     .navbar-custom-menu>.navbar-nav>li>.dropdown-menu {
+
+         right: 0% !important;
+
+         width: 100% !important;
+
+    }
+
+     .link_top_maind a {
+
+         margin-right: 15px;
+
+    }
+	
+	#quick_job li a{
+		font-size: 15px !important;
+	}
+	
+	
+
+}
+
+ .dropdown dd, .dropdown dt {
+
+     margin: 0px;
+
+     padding: 0px;
+
+}
+
+ #dropdown_multi{
+
+     margin-bottom: 0px;
+
+}
+
+ #dropdown_multi a{
+
+     height: 38px !important;
+
+     padding: 7px 10px !important;
+
+     border: none;
+
+     color: #000 ;
+
+     font-size: 14px;
+
+}
+
+ .dropdown-background{
+
+     color: #fff !important;
+
+     background: #42C500 !important;
+
+}
+
+ #dropdown_multi ul{
+
+     padding-left: 0px !important;
+
+}
+
+ .dropdown dd {
+
+     position: relative;
+
+}
+
+ .dropdown a, .dropdown a:visited {
+
+     color: #000;
+
+     text-decoration: none;
+
+     outline: none;
+
+     font-size: 12px;
+
+}
+
+ .dropdown dt a {
+
+     background-color: #fff;
+
+     display: block;
+
+     padding: 8px 20px 5px 10px;
+
+     line-height: 24px;
+
+     overflow: hidden;
+
+     border: 1px solid #D2D6DE;
+
+     width: 100%;
+
+     min-height: 34px;
+
+}
+
+ .dropdown dt a spa {
+
+     cursor: pointer;
+
+     display: inline-block;
+
+     padding: 0 3px 2px 0;
+
+}
+
+ .multiSel {
+
+     padding: 0;
+
+     margin: 0;
+
+     width: 95%;
+
+     white-space: nowrap;
+
+     overflow: hidden;
+
+     text-overflow: ellipsis;
+
+     padding-right: 5%;
+
+}
+
+ .multiSel span {
+
+     cursor: pointer;
+
+     display: inline;
+
+     padding: 0 3px 2px 0;
+
+}
+
+ .dropdown dd ul {
+
+     background-color: #4F6877;
+
+     border: 0;
+
+     color: #fff;
+
+     display: none;
+
+     left: 0px;
+
+     padding: 2px 15px 2px 5px;
+
+     position: absolute;
+
+     top: 2px;
+
+     width: 100%;
+
+     list-style: none;
+
+     height: 100px;
+
+     overflow: auto;
+
+     padding-right: 0px;
+
+}
+
+ .dropdown span.value {
+
+     display: none;
+
+}
+
+ .dropdown dd ul li a {
+
+     padding: 5px;
+
+     display: block;
+
+}
+
+ .dropdown dd ul li a:hover {
+
+     background-color: #fff;
+
+}
+
+ #dropdown_multi input{
+
+     display: none !important;
+
+}
+
+ #button_checked td{
+
+     font-size: 14px !important;
+
+}
+
+ input::-webkit-input-placeholder {
+
+     color: #000 !important;
+
+     font-size: 14px;
+
+}
+
+ input:-moz-placeholder {
+
+    /* Firefox 18- */
+
+     color: #000 !important;
+
+     font-size: 14px;
+
+}
+
+ input::-moz-placeholder {
+
+    /* Firefox 19+ */
+
+     color: #000 !important;
+
+     font-size: 14px;
+
+}
+
+ input:-ms-input-placeholder {
+
+     color: #000 !important;
+
+     font-size: 14px;
+
+}
+
+ @media only screen and (min-width: 1024px) and (max-width: 1920px){
+
+     .fa-info-circle{
+
+         /* position: absolute;
+
+         margin-left: 19%;
+
+         top: 6px;
+ */
+ 
+     /* position: relative;
+    left: 42%;
+    bottom: 8px; */
+         font-size: 13px;
+
+         color: #fff;
+
+    }
+	
+	#myModal_job_header .modal-dialog{
+		width: 80%;
+	}
+
+}
+
+ @media only screen and (min-width: 1025px) and (max-width: 1920px){
+
+     .time_tab_desktop{
+
+         display: block !important;
+
+    }
+
+     #faqAccordion{
+
+         display: none !important;
+
+    }
+
+     .show_data {
+
+         display: block !important;
+
+    }
+	
+
+}
+
+ @media only screen and (min-width: 320px) and (max-width: 767px){
+
+     .today_time li {
+
+         width: 65px !important;
+
+         height: 30px !important;
+
+         line-height: 27px !important;
+
+    }
+
+     #button_checked label {
+
+         padding: 3px;
+
+    }
+
+     #button_checked td {
+
+         font-size: 11px !important;
+
+         vertical-align: middle;
+
+    }
+
+     .table_new_talent td input {
+
+         font-size: 11px !important;
+
+         height: 30px !important;
+
+    }
+
+     input::-webkit-input-placeholder {
+
+         font-size: 11px;
+
+    }
+
+     input:-moz-placeholder {
+
+        /* Firefox 18- */
+
+         font-size: 11px;
+
+    }
+
+     input::-moz-placeholder {
+
+        /* Firefox 19+ */
+
+         font-size: 11px;
+
+    }
+
+     input:-ms-input-placeholder {
+
+         font-size: 11px;
+
+    }
+
+     #dropdown_multi a{
+
+         font-size: 11px;
+
+    }
+
+     .btn_request{
+
+         margin-top: 10px !important;
+
+    }
+
+     .today_time li {
+
+         margin: 6px 17px !important;
+
+    }
+
+}
+
+ .popover-title{
+
+     color:#000;
+
+}
+
+ .popover-content{
+
+     color:#000;
+
+}
+
+ .today_time{
+
+     list-style-type: none;
+
+     padding: 0px;
+
+     margin: 0px;
+
+}
+
+ .today_time li{
+
+     border: 1px solid #3F4A59;
+
+    margin: 6px 36px;
+
+    float: left;
+
+    margin-bottom: 4px;
+
+    width: 46px;
+
+    text-align: center;
+
+    height: 35px;
+
+    line-height: 32px;
+
+	/* background: #d5d5d5 !important;
+    color: #fff !important; */
+	color: #000 !important;
+    
+    background-repeat: no-repeat;
+    background-position: 10px 1px;
+}
+
+ .today_time label{
+
+     padding: 0px !important;
+
+}
+
+ .today_time label{
+
+     height: 33px !important;
+
+     font-size: 15px;
+
+}
+
+ .time_collapse_btn{
+
+     transition: 0.6s;
+
+     background-color: #42c500 !important;
+
+     border-color: #42c500 !important;
+
+     color: #fff!important;
+
+     box-shadow: none;
+
+     border: 1px solid #42c500;
+
+     height: 37px;
+
+     width: 100%;
+
+}
+
+
+
+ .green_hover:hover{
+
+     background: #42C500 !important;
+
+     color: #fff !important;
+
+}
+
+ .click_display_time{
+
+     display: none;
+
+}
+
+ #faqAccordion .panel-heading{
+
+     background: #42C500;
+
+     color: #fff;
+
+     text-align: center;
+
+     height: 35px;
+
+     padding-top: 7px;
+
+}
+
+ .click_display_time .today_time li {
+
+     background: #d5d5d5 !important;
+
+     color: #fff !important;
+
+}
+
+ .multiselect-container {
+
+     box-shadow: 0 3px 12px rgba(0,0,0,.175);
+
+     margin: 0;
+
+}
+
+ .multiselect-container .checkbox {
+
+     margin: 0;
+
+}
+
+ .multiselect-container li {
+
+     margin: 0;
+
+     padding: 0;
+
+     line-height: 0;
+
+}
+
+ .multiselect-container li a {
+
+     line-height: 25px;
+
+     margin: 0;
+
+     padding:0 35px;
+
+}
+
+ .custom-btn {
+
+     width: 100% !important;
+
+}
+
+ .custom-btn .btn, .custom-multi {
+
+     text-align: left;
+
+     width: 100% !important;
+
+}
+
+ .dropdown-menu > .active > a:hover {
+
+     color:inherit;
+
+}
+
+ #multiselect li input{
+
+     display: none !important;
+
+}
+
+ .table>tbody>tr>td {
+
+     padding: 0px;
+
+}
+
+ .table>thead>tr>td {
+
+     padding: 0px;
+
+}
+
+ .pdg_talent_sub_left {
+
+     border-bottom: none !important;
+
+     border-top: none !important;
+
+}
+
+ textarea:focus, input:focus {
+
+     outline: none;
+
+}
+
+ textarea:focus, select:focus {
+
+     outline: none;
+
+}
+
+ .td_1_green_label {
+
+     background: #3F4A59;
+
+     color: #fff !important;
+
+     border-bottom: solid 1px #fff !important;
+
+     margin-bottom: 1px;
+
+}
+
+ .td_1_green_label:hover {
+
+     color: #fff;
+
+     /* background: #647182; */
+
+     cursor: pointer;
+
+}
+
+ .td_1_green_label label {
+
+     color: #fff !important;
+
+}
+
+
+
+.multiselect-container {
+
+  box-shadow: none !important;
+
+  margin: 0;
+
+}
+
+.multiselect-container .checkbox {
+
+  margin: 0;
+
+}
+
+.multiselect-container li {
+
+  margin: 0;
+
+  padding: 0;
+
+  line-height: 0;
+
+}
+
+.multiselect-container li a {
+
+  line-height: 25px;
+
+  margin: 0;
+
+  padding:0 5px;
+
+}
+
+
+
+.multiselect-container li a label{
+
+  
+
+  padding-top: 6px;
+
+}
+
+.custom-btn:active {
+
+	box-shadow: none !important;
+
+}
+
+
+
+.custom-btn {
+
+        width: 264px !important;
+
+    height: 37px;
+
+    outline: none !important;
+
+}
+
+.custom-btn .btn, .custom-multi {
+    text-align: left;
+    width: 100% !important;
+    border-radius: 0px;
+}
+
+.dropdown-menu > .active > a:hover {
+
+  color:inherit;
+
+}
+
+
+
+#button_checked .multiselect-container input{
+
+	display: none !important;
+
+}
+
+
+
+.multiselect-container li.active>a, .multiselect-container li.active>a:focus, .multiselect-container li.active>a:hover {
+
+    color: #fff;
+
+    text-decoration: none;
+
+    background-color: #42C500 !important;
+
+    outline: 0;
+
+}
+
+
+
+.custom-btn button{
+
+	    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-weight: bold;
+    height: 39px;
+
+}
+
+
+
+.btn-group.open .dropdown-toggle{
+	box-shadow: none !important;
+}
+
+.table-hover>tbody>tr:hover {
+    background-color: #f5f5f5 !important;
+	color: #000 !important;
+	cursor: pointer;
+	}
+
+.table-hover>tbody>tr:hover .td_1_green_label label{
+    background-color: #f5f5f5 !important;
+	color: #000 !important;
+	cursor: pointer;
+}
+
+
+
+#quick_job{
+	padding: 0px;
+	border-radius: 0px;
+}
+
+#quick_job li{
+	width: 50%;
+    text-align: center;
+}
+
+#quick_job li a{
+	background: #3F4A59;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+	border-radius: 0px;
+}
+
+#quick_job .nav-tabs>li.active>a, #quick_job .nav-tabs>li.active>a:focus, #quick_job .nav-tabs>li.active>a:hover {
+    color: #fff;
+    cursor: default;
+    background-color: #42C500;
+    border: 1px solid #42C500;
+    border-bottom-color: transparent;
+}
+
+/* .drp_gray_clr_select
+{
+	background-color:#f5f5f5;
+} */
+
+
+.drp_gray_clr_select:visited, .drp_gray_clr_select:active, .drp_gray_clr_select:focus {
+
+    background-color: #42C500 ;
+    color: #fff;
+
+}
+
+
+.btn-group.open .dropdown-toggle{
+	background: #42C500;
+	color: #fff;
+}
+
+.custom-btn .btn:active, .custom-btn .btn:hover, .custom-btn .btn:focus,  .custom-btn .btn:visited, .custom-btn .btn:focus-within{
+	background: #42C500;
+    color: #000;
+    box-shadow: none;
+}
+
+ #date_time_tabs .panel-heading{
+
+     padding: 0px;
+
+}
+
+ #date_time_tabs .nav-tabs>li {
+
+     width: 20%;
+
+     text-align: center;
+
+}
+
+ #date_time_tabs .nav-tabs>li>a {
+
+     background: #3F4A59;
+
+     color: #fff;
+
+     border: none;
+
+     border-radius: 0px;
+
+}
+
+ #date_time_tabs .panel-default{
+
+     border-color: white;
+
+     box-shadow: none;
+
+     margin-bottom: 0px;
+
+}
+
+ #date_time_tabs .panel-body {
+
+     padding: 0px;
+
+}
+
+ #date_time_tabs .nav-tabs>li.active>a, #date_time_tabs .nav-tabs>li.active>a:focus, #date_time_tabs .nav-tabs>li.active>a:hover {
+
+     background: #42C500;
+
+     color: #fff;
+
+}
+
+.table-hover>thead>tr:hover{
+	background: #f5f5f5 !important;
+	z-index: 999999;
+}
+
+.table-hover>thead>tr:hover .td_1_green_label{
+    background-color: transparent !important;
+}
+
+.table-hover>thead>tr:hover label{
+    color: #000 !important;
+}
+
+.table-hover>thead>tr:hover .fa-info-circle{
+    color: #000 !important;
+}
+
+.table-hover>tbody>tr:hover .fa-info-circle{
+    color: #000 !important;
+}
+
+.table-hover>tbody>tr:hover .custom-btn .btn{
+    background: #f5f5f5 !important;
+	color: #000;
+}
+
+
+.table-hover>thead>tr:hover select{
+    background-color: transparent !important;
+}
+
+.table-hover>thead>tr:hover input{
+    background-color: transparent !important;
+}
+
+.table-hover>tbody>tr:hover input{
+    background-color: transparent !important;
+}
+
+#date_tabs .panel-heading li {
+	width: 33.3%;
+	text-align: center;
+}
+
+#date_tabs .panel-heading li a{
+	background: #3F4A59;
+	color: #fff;
+	width: 100%;
+}
+
+#date_tabs .panel-heading li.active a{
+	background: #42C500;
+}
+
+.cal_drp_tab{
+	height: 78px !important;
+    border: 1px solid #3F4A59;
+    border-radius: 4px;
+}
+
+.btn_quick_popup{
+	border-radius: 30px;
+    width: 170px;
+    font-size: 16px;
+}
+
+#bs-collapse .panel-heading{
+	background: #42C500;
+	text-align: center;
+}
+
+#bs-collapse .panel-body {
+    padding: 5px;
+}
+
+#bs-collapse .panel-body input{
+    border: 1px solid #000;
+    box-shadow: none;
+    padding: 0px 5px;
+    height: 34px;
+    width: 100%;
+}
+
+#bs-collapse .panel-body select{
+    box-shadow: none;
+    height: 34px;
+    width: 100%;
+	border-radius: 0px !important;
+    border: 1px solid #000;
+}
+
+#bs-collapse .custom-btn {
+	width: 100% !important;
+}
+
+#bs-collapse .custom-btn .btn {
+    height: 34px !important;
+    width: 100% !important;
+    border-radius: 0px !important;
+    border: 1px solid #000;
+    box-shadow: none !important;
+}
+
+#bs-collapse .multiselect-container li input {
+    display: none !important;
+}
+
+#bs-collapse .panel-heading a{
+	color: #fff;
+}
+
+#bs-collapse input:checked + label {
+    color: #fff;
+    background: #42C500;
+}
+
+.mobile_input input{
+	display: none !important;
+}
+
+.mobile_input label{
+	height: 34px;
+    width: 100%;
+    text-align: center;
+    padding-top: 6px;
+	border: 1px solid #000;
+}
+
+.clear5{
+	clear: both;
+	height: 5px;
+}
+
+#panel_inner_checked .panel-body{
+	padding: 0px;
+}
+
+#hr_mange_time .panel-heading{
+	padding: 0px;
+	background: #fff;
+}
+
+#hr_mange_time .panel-heading li.active a{
+	background: #42C500;
+}
+
+#hr_mange_time .panel-heading li{
+	width: 16.6%;
+}
+
+#hr_mange_time .panel-heading li a{
+	background: #3F4A59;
+	border-radius: 0px;
+}
+
+#hr_mange_time_popup .panel-heading{
+	padding: 0px;
+	background: #fff;
+}
+
+#hr_mange_time_popup .panel-heading li.active a{
+	background: #42C500;
+}
+
+#hr_mange_time_popup .panel-heading li{
+	width: 16.6%;
+}
+
+#hr_mange_time_popup .panel-heading li a{
+	background: #3F4A59;
+	border-radius: 0px;
+}
+
+#request_pop_6 .panel-heading{
+	padding: 0px;
+	background: #fff;
+}
+
+#request_pop_6 .panel-heading li.active a{
+	background: #42C500;
+}
+
+#request_pop_6 .panel-heading li{
+	width: 16.6%;
+}
+
+#request_pop_6 .panel-heading li a{
+	background: #3F4A59;
+	border-radius: 0px;
+}
+
+.clear40{
+	clear: both;
+	height: 40px;
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1920px){
+	.desktop_tbl_display{
+		display: block !important;
+	}
+
+	#bs-collapse{
+		display: none !important;
+	}	
+	
+	.quick_desktop_tbl{
+		display: block !important;
+	}
+	
+	.request_desktop_tbl{
+		display: block !important;
+	}
+}
+
+@media only screen and (min-width: 320px) and (max-width: 1024px){
+	.desktop_tbl_display{
+		display: none !important;
+	}
+	
+	#bs-collapse{
+		display: block !important;
+	}
+	
+	.quick_desktop_tbl{
+		display: none !important;
+	}
+	
+	.request_desktop_tbl{
+		display: none !important;
+	}
+	
+	.btn_quick_mobile{
+		width: 100%;
+		height: 34px;
+		border-radius:1px; 
+		padding-top: 4px;
+	}
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1200px){
+	#button_checked label {
+		padding: 9px 4px;
+		font-size: 11px;
+		line-height: 22px;
+	}
+	
+	#button_checked select {
+		padding: 9px 4px;
+		font-size: 11px;
+		line-height: 22px;
+	}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+	.btn_quick_mobile{
+		margin-bottom: 10px;
+	}
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px){
+	#hr_mange_time .today_time li {
+		margin: 6px 4px !important;
+		width: 36px !important;
+	}
+	
+	#hr_mange_time .today_time label {
+		height: 33px !important;
+		font-size: 13px;
+	}
+	
+	#hr_mange_time_popup .today_time li {
+		margin: 6px 4px !important;
+		width: 36px !important;
+	}
+	
+	#hr_mange_time_popup .today_time label {
+		height: 33px !important;
+		font-size: 13px;
+	}
+	
+	#request_pop_6 .today_time li {
+		margin: 6px 4px !important;
+		width: 36px !important;
+	}
+	
+	#request_pop_6 .today_time label {
+		height: 33px !important;
+		font-size: 13px;
+	}
+	
+	#myModal_job_header .panel-body{
+		padding: 0px;
+		padding-top: 10px !important;
+	}
+	
+	#myModal_job_header .modal-body{
+		padding: 0px;
+	}
+}
+
+#remove_phone_color input:checked + label {
+    color: #000 !important;
+    background: transparent !important;
+}
+
+input.remove {
+    margin-bottom: 5px;
+}
